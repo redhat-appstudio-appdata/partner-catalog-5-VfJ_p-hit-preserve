@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: partner-catalog-cgvv
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/asaran-tenant/partner-catalog-5/partner-catalog-cgvv@sha256:2f23e56fef242b5e9bc5e848325edfc5e67ec6e0b3927767fe0840d8fffcaec8
+        name: my-java-springboot
+        resources: {}
+status: {}
