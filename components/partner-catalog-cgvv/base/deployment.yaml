@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: partner-catalog-cgvv
     spec:
       containers:
-      - image: java-springboot-image:latest
+      - image: quay.io/redhat-user-workloads/asaran-tenant/partner-catalog-5/partner-catalog-cgvv@sha256:2f23e56fef242b5e9bc5e848325edfc5e67ec6e0b3927767fe0840d8fffcaec8
         name: my-java-springboot
         ports:
         - containerPort: 8081
